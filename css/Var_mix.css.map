@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,aAAa;AAKb,UAAU",
     "sources": [
         "../sass/Var_mix.sass"
     ],

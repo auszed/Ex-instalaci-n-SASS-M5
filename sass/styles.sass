@@ -1,15 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800)
 
-/*variables*/
-$back-color-1: #0a5c71
-$back-color-2: #063642
-$back-color-3: #333333
-
-/*mixing*/
-@mixin header-color($color-1, $color-2)
-  height: 44px
-  background-image: linear-gradient(to bottom, $color-1, $color-2)
-  position: relative
+@import Var_mix
 
 body, ul, li
   margin: 0
@@ -25,37 +16,12 @@ body, ul, li
 img
   margin: 20px
 
-header
-    /* indentation must be in the same row*/
-    @include header-color($back-color-1, $back-color-2)
-    nav
-      position: absolute
-      bottom: 2px
-      li
-        display: inline-block
-        margin: 0 15px
-        vertical-align: baseline
-        a
-          text-decoration: none
-          color: white
 
+@import header
 
 main
   margin: 20px 0 0
   padding-bottom: 20px
 
-
-footer
-  background-color: $back-color-3
-  padding: 20px 0
-  position: absolute
-  bottom: 0
-  width: 100%
-  li
-    display: inline-block
-    padding: 0 10px
-    a img
-      width: 30px
-      border-radius: 50%
-      overflow: hidden
+@import footer
 
