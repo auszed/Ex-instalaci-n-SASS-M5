@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/Var_mix.sass"
+    ],
+    "names": [],
+    "file": "Var_mix.css"
+}

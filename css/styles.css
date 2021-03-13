@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+/*variables*/
+/*mixing*/
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#main-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* margen general de 20px, para todo el contenido*/
+img {
+  margin: 20px;
+}
+
+header {
+  /* indentation must be in the same row*/
+  height: 44px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a5c71), to(#063642));
+  background-image: linear-gradient(to bottom, #0a5c71, #063642);
+  position: relative;
+}
+
+header nav {
+  position: absolute;
+  bottom: 2px;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 15px;
+  vertical-align: baseline;
+}
+
+header nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  margin: 20px 0 0;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: #333333;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+footer li a img {
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=styles.css.map */
